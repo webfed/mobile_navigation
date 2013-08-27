@@ -203,9 +203,9 @@
         if (!$("#collapsed-menu-button").length) {
           /*--- Create button ---*/
           if (_this.settings.showEffect == "expand_down") {
-            $("#mobile-menu-wrapper").before("<a id='collapsed-menu-button' class='mobile-menu-button'>Menu;</a>");
+            $("#mobile-menu-wrapper").before("<a id='collapsed-menu-button' class='mobile-menu-button'>Menu</a>");
           } else {
-            $(_this.target).before("<a id='collapsed-menu-button' class='mobile-menu-button'>Menu;</a>");
+            $(_this.target).before("<a id='collapsed-menu-button' class='mobile-menu-button'>Menu</a>");
           }
 
           $("#mobile-menu-inner").hide();
